@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "616235644462",
+    "firebase_url": "https://crime-report-f31c3.firebaseio.com",
+    "project_id": "crime-report-f31c3",
+    "storage_bucket": "crime-report-f31c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616235644462:android:57c02b088c620f4f3191bf",
+        "android_client_info": {
+          "package_name": "com.example.crimereport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616235644462-g5e5qkul93aphq29mksm0equqvvlire2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDWo0wNogLTsa7J-Otsvkvvqqlj8LEuxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616235644462-g5e5qkul93aphq29mksm0equqvvlire2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

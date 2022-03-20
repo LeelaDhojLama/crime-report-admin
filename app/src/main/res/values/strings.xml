@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Crime Report</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="details_title">Details</string>
+    <string name="add_locaton_title">Add Location</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+</resources>

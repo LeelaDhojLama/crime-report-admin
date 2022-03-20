@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:visibility="gone"
+            android:indeterminate="true"/>
+
+    <fragment
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:id="@+id/frg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/progress_bar"/>
+    <Button
+            android:id="@+id/submit_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Report"
+            android:background="@drawable/button_rectangle"
+            android:textColor="#ffffff"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+
+</RelativeLayout>

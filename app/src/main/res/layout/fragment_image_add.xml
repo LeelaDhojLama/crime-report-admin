@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.ImageAddFragment"
+        >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+            android:id="@+id/imgPreivew"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+            />
+    <EditText
+            android:id="@+id/detailsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="200dp"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:hint="@string/details_title"
+            android:background="@drawable/form_border"
+            android:layout_below="@id/imgPreivew"/>
+    <Button
+            android:id="@+id/btnAddLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rectangle"
+            android:textColor="#ffffff"
+            android:padding="16dp"
+            android:text="@string/add_locaton_title"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
